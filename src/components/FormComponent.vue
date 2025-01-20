@@ -8,7 +8,7 @@
             <ul>
               <li>
                 <label for="key">License key is needed:    </label>
-                <input v-model="licenseKey" id="key" type="text" value="{{this.licenseKey}}"/>  <button @:click="colocarDemoKey('DEMO_KEY')">use Demo-key</button>
+                <input v-model="licenseKey" id="key" type="text" value=""/>  <button @:click="colocarDemoKey('DEMO_KEY')">use Demo-key</button>
                 
               </li>              
               <li>
@@ -20,13 +20,13 @@
                 <p>Misson:</p>
                 <div class="select">
                    
-                        <input v-model="rover" type="radio" name="rover" value="spirit" >Spirit 
+                        <input  v-model="rover" type="radio" name="rover" value="spirit" > <div translate="no" >Spirit</div> 
                      
-                        <input v-model="rover" type="radio" name="rover" value="opportunity">Opportunity
+                        <input  translate="no" v-model="rover" type="radio" name="rover" value="opportunity"><div translate="no" >Opportunity</div> 
                      
-                        <input v-model="rover" type="radio" name="rover" value="curiosity" >Curiosity
+                        <input  translate="no" v-model="rover" type="radio" name="rover" value="curiosity" ><div translate="no" >Curiosity</div> 
                                               
-                        <input v-model="rover" type="radio" name="rover" value="perseverance">Perseverance 
+                        <input  translate="no" v-model="rover" type="radio" name="rover" value="perseverance"> <div translate="no" >Perseverance</div> 
                       
                        
                       

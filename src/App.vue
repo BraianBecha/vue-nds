@@ -102,49 +102,53 @@ volverAGrid(){
 
  
 <template> 
-
-<top-bar />
- <main>
-  <form-component @send-values="receiveValues" />
-
-
  
-<div>
-  <Transition mode="out-in">
+<top-bar />
+
+
+   <main>
+      <form-component @send-values="receiveValues" /> 
+
+   
+        <Transition mode="out-in"> 
+    
+        
   <div v-if = "lookState === 'detalleFoto' "  key="detalleFoto"> 
-    <detalle :id-photo="detalleFoto.id" 
+        <detalle :id-photo="detalleFoto.id" 
               :imgSrc="detalleFoto.imgSrc"
               :earth-date="detalleFoto.earth_date"
               :rover-name="detalleFoto.rover"
               :camera-name="detalleFoto.camera"
               textoBtn='Back'
-              @pedirVolver="volverAGrid"
-              
- ></detalle>
+              @pedirVolver="volverAGrid" >
+        </detalle>
+        
+      </div>
 
+      </Transition>
+    
+     
+  <Transition mode="out-in">
 
-</div>
-</Transition>
-<Transition mode="out-in">
+    <div v-if = "lookState === 'contenedorDeFotos'" key="contenedorDeFotos" class="contenedorDeFotos">
+  <card-photo v-for="x in arrayPresentacionPhotos" :key="x.id"
+      :id-photo="x.id"
+      :img-src="x.imgSrc"
+      :rover-name="x.rover"
+      :earth-date="x.earth_date"
+      @verEnDetalle="verEnDetalle"
+      :camera-name="x.camera"
+  />  
+     </div>
+   </Transition>
 
-  <div v-if = "lookState === 'contenedorDeFotos'" key="contenedorDeFotos" class="contenedorDeFotos">
- <card-photo v-for="x in arrayPresentacionPhotos" :key="x.id"
- :id-photo="x.id"
- :img-src="x.imgSrc"
- :earth-date="x.earth_date"
- :rover-name="x.rover"
- :camera-name="x.camera"
- @verEnDetalle="verEnDetalle"
-  />   
-  </div>
-</Transition>
-</div>
 
 
  <barra-estado :n-sol='sol' :n-photos='arrayPresentacionPhotos.length' v-show='mostrarBarraEstado' /> 
 
 
-</main>
+ </main>
+
 </template>
 
 <style scoped>

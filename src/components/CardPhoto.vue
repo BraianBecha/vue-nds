@@ -15,7 +15,7 @@ import BotonV from './botonV.vue';
    </div> 
    
 <boton-v textoBoton="View"  @click="verEnDetalle">  </boton-v>    
-<boton-v textoBoton="Download" >  </boton-v>      
+<!--<boton-v textoBoton="Download" >  </boton-v> -->      
 </div>
 </template>
 
