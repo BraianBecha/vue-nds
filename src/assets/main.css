@@ -17,8 +17,18 @@ a,
   padding: 3px;
 }
 
+.tarjetaFoto { 
+ 
+  margin: 30px;
+  padding: 30px;
+}
+
 @media (max-width: 600px) {
 
+  .tarjetaFoto { 
+    margin: 0; 
+    padding: 0; 
+ }
   .headerBar{
     width: 100vw;
     height: 15vh;
@@ -76,7 +86,7 @@ ol{
 
 
 }
-li > .listaDescriptiva{
+.listaDescriptiva li {
   max-width: 90vw;
  /*border: 2px solid var(--color-border-hover);
  border-radius: 3px */

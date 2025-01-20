@@ -46,7 +46,7 @@ import BotonV from './botonV.vue';
   z-index: 2;
 }
 
-
+/*
 .tarjetaFoto{  
   
   display:flex;
@@ -58,7 +58,7 @@ import BotonV from './botonV.vue';
     padding: 30px;
     background-color: var(--claro);
 
-}
+}*/
 
 .listaDescriptiva{  
   position: relative;

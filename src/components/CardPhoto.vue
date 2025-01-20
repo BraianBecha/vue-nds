@@ -52,8 +52,6 @@ import BotonV from './botonV.vue';
     border-width : 2px;
     border: solid var(--gris);
     border-radius : 10px;
-    margin: 30px;
-    padding: 30px;
     background-color: var(--claro);
 
 }
