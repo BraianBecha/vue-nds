@@ -81,10 +81,6 @@ verEnDetalle(x){
   console.log(`se llama a verEnDetalle con los valores ${x}`)
 
   this.detalleFoto = this.arrayPresentacionPhotos.find((element => element.id == x))
-
-  console.log(`se halla un elemento del día ${this.detalleFoto.earth_date}`)
-
-
    this.lookState= 'detalleFoto'
 
 },
@@ -107,7 +103,7 @@ volverAGrid(){
 
 
    <main>
-      <form-component @send-values="receiveValues" /> 
+      <form-component v-if = "lookState !== 'detalleFoto' " @send-values="receiveValues" /> 
 
    
         <Transition mode="out-in"> 

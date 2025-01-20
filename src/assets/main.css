@@ -76,16 +76,23 @@ ol{
 
 
 }
-li{
+li > .listaDescriptiva{
   max-width: 90vw;
- border: 2px solid var(--color-border-hover);
- border-radius: 3px ;
- padding: 2px;
+ /*border: 2px solid var(--color-border-hover);
+ border-radius: 3px */
+ padding: 0;
  list-style: none;
  background-color: var(--claro);
  font-size: small;
 }
-
+.boton1 {
+  background-color: var(--violeta);
+  color: var(--claro);
+  border-radius: 10px;
+  padding: 1px;
+  margin: 0;
+  max-width: fit-content;
+}
 
 ul {
  list-style: none;
@@ -93,6 +100,14 @@ ul {
  margin: 0px;
  padding: 1em;
  border: 0px;
+}
+.listaDescriptiva{  
+  margin: 1rem;
+  position: relative;
+    display: flex;
+    justify-content: center;
+   font-size: small;
+    
 }
 }
 

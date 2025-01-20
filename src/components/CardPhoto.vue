@@ -7,7 +7,7 @@ import BotonV from './botonV.vue';
    <img :src="imgSrc">
    <div class="listaDescriptiva">
    <ol>
-       <li>Id : {{ idPhoto }} </li>
+       <li> Id : {{ idPhoto }} </li>
        <li>Earth date: {{ earthDate }} </li>
        <li>Rover name: {{ roverName }}</li>
        <li>Camera: {{ cameraName }}   </li>
@@ -58,6 +58,7 @@ import BotonV from './botonV.vue';
 
 }
 .listaDescriptiva{  
+  margin: 1rem;
   position: relative;
     display: flex;
     justify-content: center;
