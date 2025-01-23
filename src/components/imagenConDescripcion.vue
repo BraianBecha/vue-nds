@@ -2,11 +2,10 @@
 <template>
 
     <div class="contenedorDeFoto">
-<img :src="unLink" alt="pieDeFoto" > 
+<img :src=unLink alt="pieDeFoto" > 
 <p class="textoPieDeFoto">{{ pieDeFoto }}</p>   
 </div>
 </template>
-
 
 
 <script>
