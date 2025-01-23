@@ -16,7 +16,7 @@ export default{
     <div class="w3-half">
      
       <imagenConDescripcion pieDeFoto="Imagen del paracaídas del módulo que transportaba al rover Perseverance, momentos antes de aterrizar en el planeta rojo. Sol:1" :unLink = "'/vue-nds/refs/heads/main/src/assets/fotos/EBF_0001_0667022756_679ECV_N0010052EDLC00001_0010LUJ01_1200.jpg'" />
-      <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'/vue-nds/assets/FRF_0688_0728025478_520ECM_N0321184FHAZ02418_01_295J01_1200.jpg'" />
+      <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'https://raw.githubusercontent.com/BraianBecha/vue-nds/refs/heads/main/src/assets/fotos/FRF_0688_0728025478_520ECM_N0321184FHAZ02418_01_295J01_1200.jpg'" />
       <imagenConDescripcion pieDeFoto="Paisaje Marciano" :unLink = "'/vue-nds/src/assets/fotos/NRF_0688_0728028560_620ECM_N0321184NCAM02688_09_095J01_1200.jpg'" />
       <imagenConDescripcion pieDeFoto="El rover Perseverance capta a la luna marciana Phobos eclipsando al Sol. Sol:1285" :unLink = "'/vue-nds/src/assets/fotos/ZL7_1056_0760664098_398EBY_N0501254ZCAM01538_1100LMJ01_1200.jpg'" />
       
