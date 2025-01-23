@@ -2,10 +2,10 @@
 <template>
 
     <div class="contenedorDeFoto">
-            <img :src=unLink alt=pieDeFoto > 
+            <img :src=require.context(unLink) alt=pieDeFoto > 
             <p class="textoPieDeFoto">{{ pieDeFoto }} </p>   
     </div>
-
+    
 </template>
 
 <script>
