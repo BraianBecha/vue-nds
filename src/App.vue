@@ -5,13 +5,18 @@ import FormComponent from './components/FormComponent.vue';
 import CardPhoto from './components/CardPhoto.vue';
 import BarraEstado from './components/BarraEstado.vue';
 import Detalle from './components/detalle.vue';
+import MosaicoFotos from './components/MosaicoFotos.vue'
+import NavBar from './components/NavBar.vue';
+import MosaicoFotosVue from './components/MosaicoFotos.vue';
+import imagenConDescripcion from './components/imagenConDescripcion.vue';
 </script>
 
 <script>
+export default {};
 
-console.log("funciona AppVue")
+/*
 export default {
-  components: { CardPhoto, Detalle },
+  components: { CardPhoto, Detalle, imagenConDescripcion },
   data() {
     return {
       sol : 0,
@@ -90,6 +95,7 @@ volverAGrid(){
 
 }
 };
+*/
 
 </script>
 
@@ -101,8 +107,22 @@ volverAGrid(){
  
 <top-bar />
 
+ <nav-bar />
 
+
+ <Transition mode="out-in"> 
+                            <router-view />
+ </Transition>
+
+ 
    <main>
+
+ <!--
+    <imagenConDescripcion pieDeFoto="esto es un pie de foto 2" :unLink = "'/vue-nds/src/assets/fotos/NLF_0124_0677955190_226ECM_N0041712NCAM03124_07_195J01_1200.jpg'" />
+    
+   
+<mosaico-fotos />   
+
       <form-component v-if = "lookState !== 'detalleFoto' " @send-values="receiveValues" /> 
 
    
@@ -142,7 +162,7 @@ volverAGrid(){
 
  <barra-estado :n-sol='sol' :n-photos='arrayPresentacionPhotos.length' v-show='mostrarBarraEstado' /> 
 
-
+--> 
  </main>
 
 </template>

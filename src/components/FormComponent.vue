@@ -32,7 +32,7 @@
                       
                 </div>
                 
-                <button class="botonSubmit"  @click="sendValues" type="submit" name="Submit">See photos</button>
+                <button class="botonSubmit"  @click="sendValues" type="submit" name="Submit">See photos  &#128247; </button>
               </li>                             
             </ul>
            

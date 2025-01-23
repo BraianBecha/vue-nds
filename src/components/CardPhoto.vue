@@ -45,9 +45,7 @@ import BotonV from './botonV.vue';
 
 }
 .tarjetaFoto{  
-  /*  
-  object-fit: contain;   */
-  display:flex;
+   display:flex;
   flex-direction: column;
     border-width : 2px;
     border: solid var(--gris);

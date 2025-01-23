@@ -2,7 +2,7 @@
 import BotonV from './botonV.vue';
 </script>
 <template>
-    <div class="tarjetaFoto">
+    <div style="display:block" class="tarjetaFoto">
    <img :src="imgSrc">
    <div class="listaDescriptiva">
    <ol>
@@ -45,21 +45,9 @@ import BotonV from './botonV.vue';
   object-fit: contain;
   z-index: 2;
 }
+  
 
 /*
-.tarjetaFoto{  
-  
-  display:flex;
-  flex-direction: column;
-    border-width : 2px;
-    border: solid var(--gris);
-    border-radius : 10px;
-    margin: 30px;
-    padding: 30px;
-    background-color: var(--claro);
-
-}*/
-
 .listaDescriptiva{  
   position: relative;
     display: flex;
@@ -67,5 +55,5 @@ import BotonV from './botonV.vue';
    max-width: 700px;
    object-fit: contain; 
     
-}
+}*/
 </style>
