@@ -6,8 +6,12 @@ import MosaicoFotos from '../components/MosaicoFotos.vue';
 <template>
   <main>
 <div class="textInicio w3-center">
-    <h1>Have you ever dreamed of stepping on extraterrestrial soil?</h1>
+
+  <section class="w3-center">
+    <h3>Have you ever dreamed of stepping on extraterrestrial soil?</h3>
     <p>This project allows you to explore thousands of images of Mars captured by NASA rovers.</p>
+  
+  </section>
   </div>
    <mosaico-fotos />
   </main>
@@ -15,7 +19,6 @@ import MosaicoFotos from '../components/MosaicoFotos.vue';
 <style>
 
 .textInicio{
- 
-  max-width: 80vw;
+ align-content: center;
 }
 </style>
