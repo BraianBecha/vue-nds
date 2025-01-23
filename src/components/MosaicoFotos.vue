@@ -37,7 +37,8 @@ export default{
       <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'public/fotos/ZR0_0210_0685583506_348EBY_N0071836ZCAM03233_1100LMJ02_1200perseverance.jpg'" />
       <imagenConDescripcion pieDeFoto="Primer plano del dispositivo que usa el rover Perseverance para mecanizar las rocas del suelo marciano, para su posterior estudio." :unLink = "'/public/fotos/ZL0_0291_0692781524_700EBY_N0090000ZCAM05066_0340LMJ01_1200perseverance.jpg'" />
       <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'public/fotos/3383ML1014450101304346E01_DXXXcuriosity.jpg'" />
-     <img href="/public/fotos/ZL0_0291_0692781524_700EBY_N0090000ZCAM05066_0340LMJ01_1200perseverance.jpg">
+     <img src="/public/fotos/ZL0_0291_0692781524_700EBY_N0090000ZCAM05066_0340LMJ01_1200perseverance.jpg">
+    
      <!-- 
       <img src="/src/assets/fotos/ZL0_0789_0736981026_113EBY_N0390926ZCAM03648_1100LMJ01_1200.jpg" style="width:100%">
       <img src="/src/assets/fotos/ZR0_0210_0685583506_348EBY_N0071836ZCAM03233_1100LMJ02_1200perseverance.jpg" style="width:100%">
