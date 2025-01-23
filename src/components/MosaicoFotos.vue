@@ -23,12 +23,12 @@ export default{
 
     <div class="contenedorDeFoto">
             <img src = '/public/fotos/FRF_0688_0728025478_520ECM_N0321184FHAZ02418_01_295J01_1200.jpg' alt=pieDeFoto > 
-            <p class="textoPieDeFoto">'Suelo marciano' </p>   
+            <p class="textoPieDeFoto"> Suelo marciano  </p>   
     </div>
 
     <div class="contenedorDeFoto">
             <img src ='/public/fotos/NRF_0688_0728028560_620ECM_N0321184NCAM02688_09_095J01_1200.jpg' alt=pieDeFoto > 
-            <p class="textoPieDeFoto"> 'Paisaje Marciano' </p>   
+            <p class="textoPieDeFoto"> Paisaje Marciano </p>   
     </div>
 
     <div class="contenedorDeFoto">
@@ -52,12 +52,12 @@ export default{
 
 
       <div class="contenedorDeFoto">
-            <img src = 'public/fotos/ZL0_0789_0736981026_113EBY_N0390926ZCAM03648_1100LMJ01_1200.jpg' alt="Suelo marciano" > 
+            <img src = '/public/fotos/ZL0_0789_0736981026_113EBY_N0390926ZCAM03648_1100LMJ01_1200.jpg' alt="Suelo marciano" > 
             <p class="textoPieDeFoto">Suelo marciano</p>   
     </div>
 
     <div class="contenedorDeFoto">
-            <img src ='public/fotos/ZR0_0210_0685583506_348EBY_N0071836ZCAM03233_1100LMJ02_1200perseverance.jpg' alt="Suelo marciano" > 
+            <img src ='/public/fotos/ZR0_0210_0685583506_348EBY_N0071836ZCAM03233_1100LMJ02_1200perseverance.jpg' alt="Suelo marciano" > 
             <p class="textoPieDeFoto"> Suelo marciano </p>   
     </div>
 
@@ -69,7 +69,7 @@ export default{
 
 
     <div class="contenedorDeFoto">
-            <img src ='public/fotos/3383ML1014450101304346E01_DXXXcuriosity.jpg' alt=pieDeFoto > 
+            <img src ='/public/fotos/3383ML1014450101304346E01_DXXXcuriosity.jpg' alt=pieDeFoto > 
             <p class="textoPieDeFoto">Suelo marciano </p>   
     </div>
 
