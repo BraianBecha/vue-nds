@@ -3,10 +3,10 @@
 
     <div class="contenedorDeFoto">
 <img :src=unLink alt="pieDeFoto" > 
-<p class="textoPieDeFoto">{{ pieDeFoto }}</p>   
+<p class="textoPieDeFoto">{{ pieDeFoto }} </p>   
 </div>
 
-<img src="../assets/fotos/EBF_0001_0667022756_679ECV_N0010052EDLC00001_0010LUJ01_1200.jpg" alt="foto de prueba">
+<img src='../assets/fotos/EBF_0001_0667022756_679ECV_N0010052EDLC00001_0010LUJ01_1200.jpg' alt="foto de prueba">
 </template>
 
 <script>
