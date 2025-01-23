@@ -109,6 +109,7 @@ volverAGrid(){
 
  <nav-bar />
 
+ <a href="/public/fotos/NLF_0124_0677955190_226ECM_N0041712NCAM03124_07_195J01_1200.jpg">imagen de prueba</a>
 
  <Transition mode="out-in"> 
                             <router-view />
