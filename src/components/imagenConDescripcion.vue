@@ -2,7 +2,7 @@
 <template>
 
     <div class="contenedorDeFoto">
-            <img :src=require.context(unLink) alt=pieDeFoto > 
+            <img :src=unLink alt=pieDeFoto > 
             <p class="textoPieDeFoto">{{ pieDeFoto }} </p>   
     </div>
     
