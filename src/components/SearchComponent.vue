@@ -34,15 +34,15 @@ export default {
     return;
   }
       this.sol=y;
-    console.log(`los valores escuchados en appVue son ${x} , ${y} , ${z}`)
+    //console.log(`los valores escuchados en appVue son ${x} , ${y} , ${z}`)
     let elLink=this.crearLinkConsulta(x,y,z)
-    console.log(`el link creado es ${this.linkConsulta}`)
+    //console.log(`el link creado es ${this.linkConsulta}`)
 
   },
     
     crearLinkConsulta(x,y,z){    
     this.linkConsulta=this.linkServicio.concat(`${x}/photos?sol=${y}&api_key=${z}`)
-    console.log(`en crearLinkConsulta() link es ${this.linkConsulta}`)
+    //console.log(`en crearLinkConsulta() link es ${this.linkConsulta}`)
     this.buscarFotos(this.linkConsulta)
     
     
@@ -54,7 +54,7 @@ export default {
         .then((y)=> {
           
           if (!y.photos) {
-        console.error('La respuesta no contiene fotos');
+        alert('La respuesta no contiene fotos');
         return;
       }
           

@@ -8,7 +8,7 @@
             <ul>
               <li>
                 <label for="key">License key is needed:    </label>
-                <input v-model="licenseKey" id="key" type="text" value=""/>  <button @:click="colocarDemoKey('DEMO_KEY')">use Demo-key</button>
+                <input v-model="licenseKey" id="key" type="text" value=""/>  <button @:click="colocarDemoKey('d2Q2Ld4riY2MhakjxJgljAnc8c4l01zFqmU51A1Z')">use Demo-key</button>
                 
               </li>              
               <li>
@@ -72,6 +72,9 @@ export default {
       this.$emit('send-values', this.rover, this.sol , this.licenseKey)
     },
     colocarDemoKey(x){
+      let y = 'd2Q2Ld4riY2MhakjxJgljAnc8c4l01z'
+      if( x === y) {
+        console.log('match  key')}
     this.licenseKey=x
 
     console.log(`colocarDemoKey() ${x}`)
