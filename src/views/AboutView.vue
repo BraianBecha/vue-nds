@@ -2,7 +2,7 @@
    
      <div class="w3-white  w3-container w3-left" style="padding: 0.5rem;border-radius:10px;">   
     
-    <img class="w3-circle" style="height:106px;width:106px;margin:0.5rem;"  src="/src/assets/fotos/1732216554920.jpg" ><br><br>
+    <img class="w3-circle" style="height:106px;width:106px;margin:0.5rem;"  src="/public/fotos/1732216554920.jpg" ><br><br>
     <h4><b>Braian Becha Dev</b></h4>  
   
   <div class="w3-large">
