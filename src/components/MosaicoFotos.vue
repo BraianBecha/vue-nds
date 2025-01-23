@@ -33,7 +33,7 @@ export default{
 
     <div class="w3-half">
       
-      <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'/vue-nds/src/assets/fotos/ZL0_0789_0736981026_113EBY_N0390926ZCAM03648_1100LMJ01_1200.jpg'" />
+      <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'/vue-nds/src/assets/ZL0_0789_0736981026_113EBY_N0390926ZCAM03648_1100LMJ01_1200.jpg'" />
       <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'/vue-nds/src/assets/fotos/ZR0_0210_0685583506_348EBY_N0071836ZCAM03233_1100LMJ02_1200perseverance.jpg'" />
       <imagenConDescripcion pieDeFoto="Primer plano del dispositivo que usa el rover Perseverance para mecanizar las rocas del suelo marciano, para su posterior estudio." :unLink = "'/vue-nds/src/assets/fotos/ZL0_0291_0692781524_700EBY_N0090000ZCAM05066_0340LMJ01_1200perseverance.jpg'" />
       <imagenConDescripcion pieDeFoto="Suelo marciano" :unLink = "'/vue-nds/src/assets/fotos/3383ML1014450101304346E01_DXXXcuriosity.jpg'" />
