@@ -169,7 +169,13 @@ volverAGrid(){
 </template>
 
 <style scoped>
-
+@media (max-width: 768px) {
+ 
+    body{
+      color: var(--color-text);
+    }
+  
+}
 @media (min-width: 1024px) {
   header {
     display: flex;
