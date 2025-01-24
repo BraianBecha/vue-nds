@@ -17,7 +17,7 @@ export default{
 
       <div class="contenedorDeFoto">
             <img src = '/public/fotos/EBF_0001_0667022756_679ECV_N0010052EDLC00001_0010LUJ01_1200.jpg' alt=pieDeFoto > 
-            <p class="textoPieDeFoto"> Perseverance descent: The parachute deploys. Sun 1.</p>   
+            <p class="textoPieDeFoto"> Perseverance descent: The parachute deploys. Sol 1.</p>   
     </div>
 
     <div class="contenedorDeFoto">

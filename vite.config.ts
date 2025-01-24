@@ -11,7 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   
-  base: '/vue-nds/'
+  base: ''
   ,
   resolve: {
     alias: {

@@ -96,7 +96,7 @@ volverAGrid(){
  
 <template> 
         
-       <main>
+      
            
           <form-component v-if = "lookState !== 'detalleFoto' " @send-values="receiveValues" /> 
           
@@ -136,7 +136,7 @@ volverAGrid(){
      <barra-estado :n-sol='sol' :n-photos='arrayPresentacionPhotos.length' v-show='mostrarBarraEstado' /> 
     
     
-     </main>
+    
     
     </template>
     

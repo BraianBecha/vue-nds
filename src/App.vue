@@ -105,6 +105,7 @@ volverAGrid(){
  
 <template> 
  
+ <main>
 <top-bar />
 
  <nav-bar />
@@ -116,7 +117,6 @@ volverAGrid(){
  </Transition>
 
  
-   <main>
 
  <!--
     <imagenConDescripcion pieDeFoto="esto es un pie de foto 2" :unLink = "'/vue-nds/src/assets/fotos/NLF_0124_0677955190_226ECM_N0041712NCAM03124_07_195J01_1200.jpg'" />
@@ -169,13 +169,7 @@ volverAGrid(){
 </template>
 
 <style scoped>
-@media (max-width: 768px) {
- 
-    body{
-      color: var(--color-text);
-    }
-  
-}
+
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -200,6 +194,7 @@ volverAGrid(){
 </style>
 
 <style>
+
   .v-enter-active {
     animation: slideIn 2s;
   }

@@ -14,7 +14,7 @@
 
   
   
-<main>
+
   <div id="contenedorAbout">
 
 
@@ -82,7 +82,7 @@ Beyond the fascination with space, I challenged myself to build an efficient and
   </aside>
 
 </div>
-</main>
+
 </template>
 
 <style>
