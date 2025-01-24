@@ -1,0 +1,1 @@
+#profileContainer{max-height:130px;max-width:130px;position:relative;float:left}.contact{padding-bottom:10rem}#about{padding:7rem}#contenedorAbout{display:flex;flex-direction:column;justify-content:center}@media (min-width: 1024px){.about{min-height:100vh;display:flex;align-items:center}#about{align-content:center;max-width:80vw}.contact{max-width:60vw}}
