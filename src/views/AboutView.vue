@@ -1,5 +1,5 @@
 <template>
-   
+  <div>
      <div class="w3-white  w3-container w3-left w3-hide-small" style="padding: 0.5rem;border-radius:10px;">   
     
     <img class="w3-circle" style="height:106px;width:106px;margin:0.5rem;"  src="/public/fotos/1732216554920.jpg" ><br><br>
@@ -82,7 +82,7 @@ Beyond the fascination with space, I challenged myself to build an efficient and
   </aside>
 
 </div>
-
+</div>
 </template>
 
 <style>

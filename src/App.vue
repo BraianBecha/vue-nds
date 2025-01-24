@@ -9,6 +9,7 @@ import MosaicoFotos from './components/MosaicoFotos.vue'
 import NavBar from './components/NavBar.vue';
 import MosaicoFotosVue from './components/MosaicoFotos.vue';
 import imagenConDescripcion from './components/imagenConDescripcion.vue';
+import { Transition } from 'vue'
 </script>
 
 <script>
@@ -100,9 +101,6 @@ volverAGrid(){
 </script>
 
 
-
-
- 
 <template> 
  
  <main>
@@ -110,10 +108,10 @@ volverAGrid(){
 
  <nav-bar />
 
+ <Transition  mode="out-in"> 
  
-
- <Transition mode="out-in"> 
-                            <router-view />
+                          <router-view /> 
+                                          
  </Transition>
 
  

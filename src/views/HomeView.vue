@@ -5,7 +5,7 @@ import MosaicoFotos from '../components/MosaicoFotos.vue';
 </script>
 
 <template>
- 
+ <div>
 <div class="textInicio w3-center">
 
   <section class="w3-center">
@@ -15,7 +15,7 @@ import MosaicoFotos from '../components/MosaicoFotos.vue';
   </section>
   </div>
    <mosaico-fotos />
-   
+  </div>
 </template>
 <style>
 @import '/src/assets/base.css';

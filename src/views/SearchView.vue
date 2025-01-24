@@ -8,7 +8,7 @@ import detalle from '@/components/detalle.vue';*/
 </script>
 
 <template>
-    <search-component></search-component>
+    <search-component />
 </template>
 
 <style>
