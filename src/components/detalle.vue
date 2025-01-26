@@ -15,7 +15,7 @@ import BotonV from './botonV.vue';
    </ol>
    </div> 
    
-<boton-v :textoBoton=this.textoBtn @click="pedirVolver"></boton-v> 
+<boton-v :textoBoton=textoBtn @click="pedirVolver()"></boton-v> 
        
 </div>
 </template>

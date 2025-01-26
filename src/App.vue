@@ -14,7 +14,6 @@ import { Transition } from 'vue'
 
 <script>
 export default {};
-
 /*
 export default {
   components: { CardPhoto, Detalle, imagenConDescripcion },
@@ -82,19 +81,6 @@ export default {
         
 },
 
-verEnDetalle(x){
-
-  console.log(`se llama a verEnDetalle con los valores ${x}`)
-
-  this.detalleFoto = this.arrayPresentacionPhotos.find((element => element.id == x))
-   this.lookState= 'detalleFoto'
-
-},
-volverAGrid(){
-  this.lookState='contenedorDeFotos'
-}
-
-}
 };
 */
 

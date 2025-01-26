@@ -125,7 +125,7 @@ volverAGrid(){
           :img-src="x.imgSrc"
           :rover-name="x.rover"
           :earth-date="x.earth_date"
-          @verEnDetalle="verEnDetalle"
+          @verEnDetalle="verEnDetalle(x.id)"
           :camera-name="x.camera"
       />  
          </div>
