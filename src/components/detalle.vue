@@ -5,14 +5,14 @@ import BotonV from './botonV.vue';
     <div style="display:block" class="tarjetaFoto">
    <img :src="imgSrc">
    <div class="listaDescriptiva">
-   <ol>
+   <!--  <ol>
        <li>Id : {{ idPhoto }} </li>
        <li>Earth date: {{ earthDate }} </li>
        <li>Rover name: {{ roverName }}</li>
        <li>Camera: {{ cameraName }}   </li>
        
        <li>Camera: {{ textoBtn }}   </li>
-   </ol>
+   </ol> --> 
    </div> 
    
 <boton-v :textoBoton=textoBtn @click="pedirVolver()"></boton-v> 
@@ -40,10 +40,10 @@ import BotonV from './botonV.vue';
 
 
 .tarjetaFoto img{
- width: 100%;
+width: 100%;
  height: 100%;
   object-fit: contain;
-  z-index: 2;
+  z-index: 1;
 }
   
 

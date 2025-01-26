@@ -101,7 +101,7 @@ volverAGrid(){
           <form-component v-if = "lookState !== 'detalleFoto' " @send-values="receiveValues" /> 
           
             <Transition mode="out-in">        
-            
+            <div>
                   <div v-if = "lookState === 'detalleFoto' "  key="detalleFoto"> 
                  <detalle :id-photo="detalleFoto.id" 
                           :imgSrc="detalleFoto.imgSrc"
@@ -114,10 +114,6 @@ volverAGrid(){
             
           </div>
     
-          </Transition>
-        
-         
-      <Transition mode="out-in">
     
         <div v-if = "lookState === 'contenedorDeFotos'" key="contenedorDeFotos" class="contenedorDeFotos">
       <card-photo v-for="x in arrayPresentacionPhotos" :key="x.id"
@@ -128,7 +124,7 @@ volverAGrid(){
           @verEnDetalle="verEnDetalle(x.id)"
           :camera-name="x.camera"
       />  
-         </div>
+         </div></div>
        </Transition>
     
     
