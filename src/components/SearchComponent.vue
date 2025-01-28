@@ -124,7 +124,8 @@ volverAGrid(){
           @verEnDetalle="verEnDetalle(x.id)"
           :camera-name="x.camera"
       />  
-         </div></div>
+         </div>
+        </div>
        </Transition>
     
     
